@@ -5,8 +5,10 @@
 body {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: 1s;
 }
 .btns {
   display: grid;
@@ -16,7 +18,8 @@ body {
   gap: 10px;
 }
 .btn {
-  padding: 30px 25px;
+  width: 150px;
+  height: 90px;
   cursor: pointer;
   border: none;
   color: red;
@@ -46,4 +49,11 @@ body {
 }
 .btn_8 {
   color: white;
+}
+.title{
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 52px;
+  font-family: sans-serif;
+  color: black;
 }

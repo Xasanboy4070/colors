@@ -6,86 +6,132 @@ const btn5 = document.querySelector(".btn_5");
 const btn6 = document.querySelector(".btn_6");
 const btn7 = document.querySelector(".btn_7");
 const btn8 = document.querySelector(".btn_8");
+const title = document.querySelector(".title");
 
+let numm1;
+symbols = "0123456789abcdef";
+numm1 = "#";
+for (let i = 0; i < 6; i++) {
+  numm1 += symbols[Math.floor(Math.random() * 16)];
+}
 
-const colors={
-  0:"black",
-   1:'green',
-   2:'red',
-   3:'yellowgreen',
-   4: 'aqua',
-   5: 'grey',
-   6: 'orange',
-   7:'blueviolet',
-   8: 'darkolivegreen',
-   9: 'hotpink',
-   10:'lightpink',
-   11:'springgreen',
-};
-let num1=Math.floor(Math.random() * 12);
-console.log(colors[num1]);
 btn1.addEventListener("click", bgc1);
-btn1.style.background =colors[num1];
+btn1.style.background = numm1;
+btn1.innerHTML = numm1;
 function bgc1() {
-  document.body.style.background = colors[num1];
-  console.log(btn1);
+  document.body.style.background = numm1;
+  title.innerHTML = numm1;
+  title.style.color = "white";
 }
 //=========================================
-let num2=Math.floor(Math.random() * 12);
-console.log(colors[num2]);
+let numm2;
+symbols = "0123456789abcdef";
+numm2 = "#";
+for (let i = 0; i < 6; i++) {
+  numm2 += symbols[Math.floor(Math.random() * 16)];
+}
+
 btn2.addEventListener("click", bgc2);
-btn2.style.background =colors[num2];
+btn2.style.background = numm2;
+btn2.innerHTML = numm2;
 function bgc2() {
-  document.body.style.background = colors[num2];
- 
+  document.body.style.background = numm2;
+  title.innerHTML = numm2;
+  title.style.color = "white";
 }
 //=========================================
-let num3=Math.floor(Math.random() * 12);
-console.log(colors[num3]);
+let numm3;
+symbols = "0123456789abcdef";
+numm3 = "#";
+for (let i = 0; i < 6; i++) {
+  numm3 += symbols[Math.floor(Math.random() * 16)];
+}
+
 btn3.addEventListener("click", bgc3);
-btn3.style.background =colors[num3];
+btn3.style.background = numm3;
+btn3.innerHTML = numm3;
 function bgc3() {
-  document.body.style.background = colors[num3];
+  document.body.style.background = numm3;
+  title.innerHTML = numm3;
+  title.style.color = "white";
 }
 //=========================================
-let num4=Math.floor(Math.random() * 12);
-console.log(colors[num4]);
+let numm4;
+symbols = "0123456789abcdef";
+numm4 = "#";
+for (let i = 0; i < 6; i++) {
+  numm4 += symbols[Math.floor(Math.random() * 16)];
+}
+
 btn4.addEventListener("click", bgc4);
-btn4.style.background =colors[num4];
+btn4.style.background = numm4;
+btn4.innerHTML = numm4;
 function bgc4() {
-  document.body.style.background = colors[num4];
+  document.body.style.background = numm4;
+  title.innerHTML = numm4;
+  title.style.color = "white";
 }
 //=========================================
-let num5=Math.floor(Math.random() * 12);
-console.log(colors[num5]);
+let numm5;
+symbols = "0123456789abcdef";
+numm5 = "#";
+for (let i = 0; i < 6; i++) {
+  numm5 += symbols[Math.floor(Math.random() * 16)];
+}
+
 btn5.addEventListener("click", bgc5);
-btn5.style.background =colors[num5];
+btn5.style.background = numm5;
+btn5.innerHTML = numm5;
 function bgc5() {
-  document.body.style.background = colors[num5];
+  document.body.style.background = numm5;
+  title.innerHTML = numm5;
+  title.style.color = "white";
 }
 //=========================================
-let num6=Math.floor(Math.random() * 12);
-console.log(colors[num6]);
+let numm6;
+symbols = "0123456789abcdef";
+numm6 = "#";
+for (let i = 0; i < 6; i++) {
+  numm6 += symbols[Math.floor(Math.random() * 16)];
+}
+
 btn6.addEventListener("click", bgc6);
-btn6.style.background =colors[num6];
+btn6.style.background = numm6;
+btn6.innerHTML = numm6;
 function bgc6() {
-  document.body.style.background = colors[num6];
-  console.log(btn6);
+  document.body.style.background = numm6;
+  title.innerHTML = numm6;
+  title.style.color = "white";
 }
 //=========================================
-let num7=Math.floor(Math.random() * 12);
-console.log(colors[num7]);
+let numm7;
+symbols = "0123456789abcdef";
+numm7 = "#";
+for (let i = 0; i < 6; i++) {
+  numm7 += symbols[Math.floor(Math.random() * 16)];
+}
+
 btn7.addEventListener("click", bgc7);
-btn7.style.background =colors[num7];
+btn7.style.background = numm7;
+btn7.innerHTML = numm7;
 function bgc7() {
-  document.body.style.background = colors[num7];
-  console.log(btn7);
+  document.body.style.background = numm7;
+  title.innerHTML = numm7;
+  title.style.color = "white";
 }
 //=========================================
-let num8=Math.floor(Math.random() * 12);
-console.log(colors[num8]);
+let numm8;
+symbols = "0123456789abcdef";
+numm8 = "#";
+for (let i = 0; i < 6; i++) {
+  numm8 += symbols[Math.floor(Math.random() * 16)];
+}
+
 btn8.addEventListener("click", bgc8);
-btn8.style.background =colors[num8];
+btn8.style.background = numm8;
+btn8.innerHTML = numm8;
 function bgc8() {
-  document.body.style.background = colors[num8];
+  document.body.style.background = numm8;
+  title.innerHTML = numm8;
+  title.style.color = "white";
 }
